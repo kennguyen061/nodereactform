@@ -1,0 +1,17 @@
+version: '4'
+
+services:
+  backend:
+    container_name: express-api
+    build:
+      context: ./express-template
+      dockerfile: ./Dockerfile
+    ports:
+      - "8080:8080"
+  frontend:
+    build:
+      context: ./react-template
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:3000"
+
