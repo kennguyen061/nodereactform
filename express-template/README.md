@@ -1,5 +1,4 @@
 # Overview
-This template provides a very basic NodeJS Express application. This is intended to provide a bare minimum set of files that is executable, and can be compiled into a functional docker image.
 
 # Running locally
 Install NodeJS. Binaries are found on the NodeJS main site.
